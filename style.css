@@ -4,6 +4,12 @@ body {
   color: #ffffff;
 }
 
+/* Navigation Menu (Week 7 Step 1: Horizontal Alignment) */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 #profile-name {
   color: #1db954;
   font-size: 28px;
@@ -15,8 +21,15 @@ body {
   font-size: 15px;
   line-height: 1.6;
 }
+
 * {
   box-sizing: border-box;
+}
+
+/* Content Wrapper (Week 7 Step 2: Horizontal Card Layout) */
+.content-wrapper {
+  display: flex;
+  gap: 20px;
 }
 
 .card {
@@ -28,4 +41,10 @@ body {
 .card h1, 
 .card p {
   margin-bottom: 20px;
+}
+
+/* Image Overflow Fix (Week 7 Step 3) */
+img {
+  max-width: 100%;
+  height: auto;
 }
